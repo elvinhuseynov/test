@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body footer {
+  width: 100%;
+  background-color: #1f2024;
+}
+
+body footer .head {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .head div {
+  margin-top: 2rem;
+}
+
+body footer .head div span {
+  color: grey;
+}
+
+body footer .head div ul {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+body footer .head div ul li {
+  margin-top: 0.3rem;
+}
+
+body footer .head div ul li a {
+  color: #cecbcb;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .head div ul li a:hover {
+  color: grey;
+  border-bottom: 1px solid;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body footer .body {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+body footer .body .box {
+  background-color: #504d56;
+  width: 11rem;
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body footer .body .box:hover {
+  background-color: #3c3b3d;
+}
+
+body footer .body .box span {
+  margin-left: 1.5rem;
+  color: #cecbcb;
+}
+
+body footer .body .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .body .contact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body footer .body .contact .info ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body footer .body .contact .info ul a {
+  text-decoration: none;
+  margin-left: 0.7rem;
+  color: #cecbcb;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body footer .body .contact .info ul a:hover {
+  opacity: 0.6;
+  border-bottom: 1px solid;
+}
+
+body footer .body .contact .social {
+  margin-left: 1rem;
+}
+
+body footer .body .contact .social div {
+  margin-left: 0.5rem;
+}
+
+body footer .body .contact .social div a {
+  text-decoration: none;
+  color: #cecbcb;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+body footer .body .contact .social div a:hover {
+  opacity: 0.6;
+}
+
+body footer .horizontal {
+  margin-top: 4rem;
+  border: 1px solid grey;
+  color: grey;
+}
+
+body footer .foot {
+  width: 80%;
+  margin: auto;
+}
+
+body footer .foot .sony {
+  margin-top: 0.5rem;
+  color: gray;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+body footer .foot .terms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+body footer .foot .terms div {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #cecbcb;
+}
+
+body footer .foot .terms div:hover {
+  opacity: 0.8;
+}
+
+body footer .foot .terms #privacy {
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+@mixin section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}

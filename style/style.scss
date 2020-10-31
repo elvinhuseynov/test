@@ -1,0 +1,154 @@
+@import "sass/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  // font-size: 10px;
+
+  footer {
+    width: 100%;
+    background-color: #1f2024;
+
+    .head {
+      @include section;
+
+      div {
+        margin-top: 2rem;
+        span {
+          color: grey;
+        }
+
+        ul {
+          margin-top: 1rem;
+          list-style: none;
+
+          li {
+            margin-top: 0.3rem;
+            a {
+              color: rgb(206, 203, 203);
+              text-decoration: none;
+              transition: 0.5s;
+
+              &:hover {
+                color: grey;
+                border-bottom: 1px solid;
+                transition: 0.5s;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .body {
+      @include section;
+      align-items: center;
+      margin-top: 3rem;
+
+      .box {
+        background-color: #504d56;
+        width: 11rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.4s;
+
+        &:hover {
+          background-color: #3c3b3d;
+        }
+
+        span {
+          margin-left: 1.5rem;
+          color: rgb(206, 203, 203);
+        }
+      }
+
+      .contact {
+        display: flex;
+
+        div {
+          @include flex-row;
+        }
+
+        .info {
+          ul {
+            list-style: none;
+            @include flex-row;
+
+            a {
+              text-decoration: none;
+              margin-left: 0.7rem;
+              color: rgb(206, 203, 203);
+              transition: 0.4s;
+
+              &:hover {
+                opacity: 0.6;
+                border-bottom: 1px solid;
+              }
+            }
+          }
+        }
+
+        .social {
+          margin-left: 1rem;
+
+          div {
+            margin-left: 0.5rem;
+
+            a {
+              text-decoration: none;
+              color: rgb(206, 203, 203);
+              transition: 0.4s;
+
+              &:hover {
+                opacity: 0.6;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .horizontal {
+      margin-top: 4rem;
+      border: 1px solid grey;
+      color: grey;
+    }
+
+    .foot {
+      width: 80%;
+      margin: auto;
+
+      .sony {
+        margin-top: 0.5rem;
+        color: gray;
+        font-size: 12px;
+        letter-spacing: 1px;
+      }
+
+      .terms {
+        display: flex;
+        margin-top: 0.5rem;
+
+        div {
+          cursor: pointer;
+          margin-bottom: 0.5rem;
+          transition: 0.4s;
+          color: rgb(206, 203, 203);
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+
+        #privacy {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
